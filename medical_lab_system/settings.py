@@ -26,6 +26,13 @@ SECRET_KEY = 'django-insecure-_n(o-57y9vc4u(z1@rdm=jv3@o5hojre3v@#h!m$#8uafpy@2y
 DEBUG = True
 
 ALLOWED_HOSTS = ['medsec-project.onrender.com', 'localhost', '127.0.0.1']
+import os
+
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+# لو بتستخدمي whitenoise
+MIDDLEWARE.insert(1, 'whitenoise.middleware.WhiteNoiseMiddleware')
 
 
 
