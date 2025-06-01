@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Medical Image Processing System
 
 ## Table of Contents
@@ -516,3 +517,6 @@ class ImageFingerprint(models.Model):
 - **Python 3.8+**
 - **CUDA 11.7+** (for GPU acceleration)
 - **Node.js 18+** (for frontend development)
+=======
+# medsec-project
+>>>>>>> 81657d024ef1c9f141b642460666c15a9e66275b
